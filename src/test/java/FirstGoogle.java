@@ -79,6 +79,7 @@ public class FirstGoogle {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            driver.findElement(By.xpath("//input[@id='email_create']")).sendKeys("Email@gmail.com");
             // WebElement dateOfBirthd = driver.findElement(By.name(""));
             //firstName.sendKeys("");
 
